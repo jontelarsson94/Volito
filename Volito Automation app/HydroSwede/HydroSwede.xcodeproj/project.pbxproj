@@ -29,6 +29,7 @@
 		46EDE0841B288BE20097F454 /* PressureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EDE0831B288BE20097F454 /* PressureController.swift */; };
 		46F7E3381D187748006645CC /* FlowDividerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F7E3371D187748006645CC /* FlowDividerController.swift */; };
 		46F977011E16A73D00BE7C68 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F977001E16A73D00BE7C68 /* MapController.swift */; };
+		46F977031E16B5FA00BE7C68 /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F977021E16B5FA00BE7C68 /* Stores.swift */; };
 		FDCE09371D62592B00D609F5 /* HalstrypningControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE09361D62592B00D609F5 /* HalstrypningControllerViewController.swift */; };
 		FDCE09391D62594400D609F5 /* RorstrypningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE09381D62594400D609F5 /* RorstrypningController.swift */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		46EDE0831B288BE20097F454 /* PressureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressureController.swift; sourceTree = "<group>"; };
 		46F7E3371D187748006645CC /* FlowDividerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowDividerController.swift; sourceTree = "<group>"; };
 		46F977001E16A73D00BE7C68 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		46F977021E16B5FA00BE7C68 /* Stores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
 		FDCE09361D62592B00D609F5 /* HalstrypningControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalstrypningControllerViewController.swift; sourceTree = "<group>"; };
 		FDCE09381D62594400D609F5 /* RorstrypningController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RorstrypningController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		46EDE05E1B27642C0097F454 /* HydroSwede */ = {
 			isa = PBXGroup;
 			children = (
+				46F977021E16B5FA00BE7C68 /* Stores.swift */,
 				46F7E3371D187748006645CC /* FlowDividerController.swift */,
 				46CE5D3F1C2B00DC00502E17 /* EnkelCylinderController.swift */,
 				46CE5D3D1C2AFAB000502E17 /* HydraulmotorVaxelController.swift */,
@@ -284,6 +287,7 @@
 				461D6F2D1B3972B0005517B4 /* TransmissionController.swift in Sources */,
 				46F7E3381D187748006645CC /* FlowDividerController.swift in Sources */,
 				4625F5CB1B8688520092BD4C /* AreaController.swift in Sources */,
+				46F977031E16B5FA00BE7C68 /* Stores.swift in Sources */,
 				46EDE0641B27642C0097F454 /* ViewController.swift in Sources */,
 				46CE5D3C1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift in Sources */,
 				4625F5CD1B868AD50092BD4C /* GallonController.swift in Sources */,
