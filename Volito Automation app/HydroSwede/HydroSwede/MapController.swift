@@ -43,6 +43,8 @@ class MapController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        mapView.delegate = self
+        
         // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()
         

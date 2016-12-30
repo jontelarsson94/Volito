@@ -16,6 +16,7 @@
 		4625F5CD1B868AD50092BD4C /* GallonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F5CC1B868AD50092BD4C /* GallonController.swift */; };
 		4625F5D11B8F33010092BD4C /* DubbelCylinderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F5D01B8F33010092BD4C /* DubbelCylinderController.swift */; };
 		46507F9C1D45A283006357F1 /* StrypningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46507F9B1D45A283006357F1 /* StrypningController.swift */; };
+		46CD001E1E16BCEB0039581F /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD001D1E16BCEB0039581F /* VCMapView.swift */; };
 		46CE5D3C1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE5D3B1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift */; };
 		46CE5D3E1C2AFAB000502E17 /* HydraulmotorVaxelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE5D3D1C2AFAB000502E17 /* HydraulmotorVaxelController.swift */; };
 		46CE5D401C2B00DC00502E17 /* EnkelCylinderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE5D3F1C2B00DC00502E17 /* EnkelCylinderController.swift */; };
@@ -54,6 +55,7 @@
 		4625F5CC1B868AD50092BD4C /* GallonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GallonController.swift; sourceTree = "<group>"; };
 		4625F5D01B8F33010092BD4C /* DubbelCylinderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DubbelCylinderController.swift; path = ../DubbelCylinderController.swift; sourceTree = "<group>"; };
 		46507F9B1D45A283006357F1 /* StrypningController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrypningController.swift; sourceTree = "<group>"; };
+		46CD001D1E16BCEB0039581F /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		46CE5D3B1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydraulmotorPlusLastController.swift; sourceTree = "<group>"; };
 		46CE5D3D1C2AFAB000502E17 /* HydraulmotorVaxelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydraulmotorVaxelController.swift; sourceTree = "<group>"; };
 		46CE5D3F1C2B00DC00502E17 /* EnkelCylinderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnkelCylinderController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		46EDE0531B27642C0097F454 = {
 			isa = PBXGroup;
 			children = (
+				46CD001D1E16BCEB0039581F /* VCMapView.swift */,
 				46EDE05E1B27642C0097F454 /* HydroSwede */,
 				46EDE0741B27642D0097F454 /* HydroSwedeTests */,
 				46EDE05D1B27642C0097F454 /* Products */,
@@ -277,6 +280,7 @@
 				4625F5D11B8F33010092BD4C /* DubbelCylinderController.swift in Sources */,
 				46CE5D401C2B00DC00502E17 /* EnkelCylinderController.swift in Sources */,
 				46EDE0841B288BE20097F454 /* PressureController.swift in Sources */,
+				46CD001E1E16BCEB0039581F /* VCMapView.swift in Sources */,
 				461D6F2B1B31B960005517B4 /* InchController.swift in Sources */,
 				FDCE09371D62592B00D609F5 /* HalstrypningControllerViewController.swift in Sources */,
 				FDCE09391D62594400D609F5 /* RorstrypningController.swift in Sources */,
