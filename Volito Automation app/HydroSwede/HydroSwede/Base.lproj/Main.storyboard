@@ -868,7 +868,7 @@ at reconducting</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="l/min" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpC-Ko-dmf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="l/min" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpC-Ko-dmf">
                                         <rect key="frame" x="252" y="44" width="42" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="42" id="gHy-9B-TLY"/>
@@ -877,25 +877,25 @@ at reconducting</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="r/min" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSq-P1-O9v">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="r/min" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSq-P1-O9v">
                                         <rect key="frame" x="252" y="82" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yK3-9o-vHd">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yK3-9o-vHd">
                                         <rect key="frame" x="252" y="120" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1/100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgk-6m-Doa">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgk-6m-Doa">
                                         <rect key="frame" x="252" y="158" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1/100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWZ-vA-79R">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWZ-vA-79R">
                                         <rect key="frame" x="252" y="196" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2186,6 +2186,13 @@ Retardation time</string>
                                     <constraint firstAttribute="width" constant="81" id="qdz-lP-Kpv"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Z-en-i6A">
+                                <rect key="frame" x="16" y="397" width="288" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="k0c-Qw-gll" kind="show" id="4Wb-XN-BMV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -2194,13 +2201,16 @@ Retardation time</string>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Fzj-Xf-pKe" secondAttribute="bottom" constant="91" id="DsD-GR-Tw4"/>
                             <constraint firstItem="Fzj-Xf-pKe" firstAttribute="top" secondItem="P8o-ba-eSk" secondAttribute="bottom" constant="8" symbolic="YES" id="Mxz-SY-wew"/>
                             <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="SBR-lq-Xzs"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="top" secondItem="Fzj-Xf-pKe" secondAttribute="bottom" constant="8" id="UI2-HO-X3J"/>
                             <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="P8o-ba-eSk" secondAttribute="leading" id="VU6-mh-UcY"/>
                             <constraint firstItem="P8o-ba-eSk" firstAttribute="top" secondItem="Q4C-Lv-0vi" secondAttribute="bottom" constant="8" symbolic="YES" id="a3v-Wj-ByM"/>
                             <constraint firstItem="P8o-ba-eSk" firstAttribute="trailing" secondItem="Fzj-Xf-pKe" secondAttribute="trailing" id="abM-XH-qXN"/>
                             <constraint firstItem="ENq-qs-Goc" firstAttribute="top" secondItem="fVK-7H-0aB" secondAttribute="bottom" constant="46" id="anH-9d-Pj2"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="bbq-AT-XtC"/>
                             <constraint firstItem="fVK-7H-0aB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="cPH-10-tM1"/>
                             <constraint firstItem="Q4C-Lv-0vi" firstAttribute="top" secondItem="ENq-qs-Goc" secondAttribute="bottom" constant="32" id="caz-Tn-89D"/>
                             <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="dA1-bz-JgT"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="dC5-nj-Z3X"/>
                             <constraint firstItem="fVK-7H-0aB" firstAttribute="centerX" secondItem="ENq-qs-Goc" secondAttribute="centerX" id="ebG-Jb-7Tr"/>
                             <constraint firstItem="ENq-qs-Goc" firstAttribute="centerX" secondItem="Q4C-Lv-0vi" secondAttribute="centerX" id="n1q-S5-fu8"/>
                         </constraints>
@@ -2209,7 +2219,7 @@ Retardation time</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1168" y="417"/>
+            <point key="canvasLocation" x="1166.25" y="416.19718309859155"/>
         </scene>
         <!--Accumulator Calculations-->
         <scene sceneID="qbd-gU-uxm">
@@ -7117,6 +7127,38 @@ regenerative operation</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84A-xL-sgC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="533" y="-760"/>
+        </scene>
+        <!--Map Controller-->
+        <scene sceneID="2wt-pJ-ilp">
+            <objects>
+                <viewController id="k0c-Qw-gll" customClass="MapController" customModule="HydroSwede" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="feS-Bp-2el"/>
+                        <viewControllerLayoutGuide type="bottom" id="3aj-f1-GcH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4gM-0L-O8t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hug-Ek-Ol1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Hug-Ek-Ol1" secondAttribute="trailing" id="e9R-Nq-uXm"/>
+                            <constraint firstItem="3aj-f1-GcH" firstAttribute="top" secondItem="Hug-Ek-Ol1" secondAttribute="bottom" id="nRO-9c-Fxf"/>
+                            <constraint firstItem="Hug-Ek-Ol1" firstAttribute="leading" secondItem="4gM-0L-O8t" secondAttribute="leading" id="pdc-QN-HpF"/>
+                            <constraint firstItem="Hug-Ek-Ol1" firstAttribute="top" secondItem="4gM-0L-O8t" secondAttribute="top" id="sV2-Iy-Vu6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Hug-Ek-Ol1" id="hgh-Eq-cyk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SEn-SG-oHX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-158" y="-299"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SX0-FL-i0a">
