@@ -55,7 +55,7 @@
 		4625F5CC1B868AD50092BD4C /* GallonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GallonController.swift; sourceTree = "<group>"; };
 		4625F5D01B8F33010092BD4C /* DubbelCylinderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DubbelCylinderController.swift; path = ../DubbelCylinderController.swift; sourceTree = "<group>"; };
 		46507F9B1D45A283006357F1 /* StrypningController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrypningController.swift; sourceTree = "<group>"; };
-		46CD001D1E16BCEB0039581F /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		46CD001D1E16BCEB0039581F /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMapView.swift; path = ../VCMapView.swift; sourceTree = "<group>"; };
 		46CE5D3B1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydraulmotorPlusLastController.swift; sourceTree = "<group>"; };
 		46CE5D3D1C2AFAB000502E17 /* HydraulmotorVaxelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydraulmotorVaxelController.swift; sourceTree = "<group>"; };
 		46CE5D3F1C2B00DC00502E17 /* EnkelCylinderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnkelCylinderController.swift; sourceTree = "<group>"; };
@@ -99,7 +99,6 @@
 		46EDE0531B27642C0097F454 = {
 			isa = PBXGroup;
 			children = (
-				46CD001D1E16BCEB0039581F /* VCMapView.swift */,
 				46EDE05E1B27642C0097F454 /* HydroSwede */,
 				46EDE0741B27642D0097F454 /* HydroSwedeTests */,
 				46EDE05D1B27642C0097F454 /* Products */,
@@ -118,6 +117,7 @@
 		46EDE05E1B27642C0097F454 /* HydroSwede */ = {
 			isa = PBXGroup;
 			children = (
+				46CD001D1E16BCEB0039581F /* VCMapView.swift */,
 				46F977021E16B5FA00BE7C68 /* Stores.swift */,
 				46F7E3371D187748006645CC /* FlowDividerController.swift */,
 				46CE5D3F1C2B00DC00502E17 /* EnkelCylinderController.swift */,

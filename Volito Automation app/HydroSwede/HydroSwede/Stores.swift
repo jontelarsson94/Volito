@@ -8,8 +8,7 @@
 
 import UIKit
 import MapKit
-
-import MapKit
+import AddressBook
 
 class Stores: NSObject, MKAnnotation {
     let title: String?
@@ -30,6 +29,16 @@ class Stores: NSObject, MKAnnotation {
     
     var subtitle: String? {
         return locationName
+    }
+    
+    func mapItem() -> MKMapItem {
+        let addressDictionary = [String(kABPersonAddressStreetKey): subtitle]
+        let placemark = MKPlacemark(coordinate: coordinate, addressDictionary: addressDictionary)
+        
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = title
+        
+        return mapItem
     }
 }
 
