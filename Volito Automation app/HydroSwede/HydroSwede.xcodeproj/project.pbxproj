@@ -17,6 +17,7 @@
 		4625F5D11B8F33010092BD4C /* DubbelCylinderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F5D01B8F33010092BD4C /* DubbelCylinderController.swift */; };
 		46507F9C1D45A283006357F1 /* StrypningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46507F9B1D45A283006357F1 /* StrypningController.swift */; };
 		46CD001E1E16BCEB0039581F /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD001D1E16BCEB0039581F /* VCMapView.swift */; };
+		46CD00221E17BEE90039581F /* EmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD00211E17BEE90039581F /* EmailController.swift */; };
 		46CE5D3C1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE5D3B1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift */; };
 		46CE5D3E1C2AFAB000502E17 /* HydraulmotorVaxelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE5D3D1C2AFAB000502E17 /* HydraulmotorVaxelController.swift */; };
 		46CE5D401C2B00DC00502E17 /* EnkelCylinderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE5D3F1C2B00DC00502E17 /* EnkelCylinderController.swift */; };
@@ -56,6 +57,7 @@
 		4625F5D01B8F33010092BD4C /* DubbelCylinderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DubbelCylinderController.swift; path = ../DubbelCylinderController.swift; sourceTree = "<group>"; };
 		46507F9B1D45A283006357F1 /* StrypningController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrypningController.swift; sourceTree = "<group>"; };
 		46CD001D1E16BCEB0039581F /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCMapView.swift; path = ../VCMapView.swift; sourceTree = "<group>"; };
+		46CD00211E17BEE90039581F /* EmailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailController.swift; sourceTree = "<group>"; };
 		46CE5D3B1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydraulmotorPlusLastController.swift; sourceTree = "<group>"; };
 		46CE5D3D1C2AFAB000502E17 /* HydraulmotorVaxelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydraulmotorVaxelController.swift; sourceTree = "<group>"; };
 		46CE5D3F1C2B00DC00502E17 /* EnkelCylinderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnkelCylinderController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				46CE5D3D1C2AFAB000502E17 /* HydraulmotorVaxelController.swift */,
 				4625F5D01B8F33010092BD4C /* DubbelCylinderController.swift */,
 				46CE5D3B1C2ADA7E00502E17 /* HydraulmotorPlusLastController.swift */,
+				46CD00211E17BEE90039581F /* EmailController.swift */,
 				4625F5C81B86805F0092BD4C /* HpController.swift */,
 				4625F5CA1B8688520092BD4C /* AreaController.swift */,
 				4625F5CC1B868AD50092BD4C /* GallonController.swift */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				461D6F291B2DE1D7005517B4 /* AccumulatorController.swift in Sources */,
+				46CD00221E17BEE90039581F /* EmailController.swift in Sources */,
 				4625F5D11B8F33010092BD4C /* DubbelCylinderController.swift in Sources */,
 				46CE5D401C2B00DC00502E17 /* EnkelCylinderController.swift in Sources */,
 				46EDE0841B288BE20097F454 /* PressureController.swift in Sources */,
