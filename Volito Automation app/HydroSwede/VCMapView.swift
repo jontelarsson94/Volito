@@ -39,7 +39,18 @@ extension MapController: MKMapViewDelegate {
         alert.addAction(UIAlertAction(title: "Email store", style: .default, handler: { action in
             switch action.style{
             case .default:
-                print("default")
+                
+                let email = "kundtjanst@hydsupply.se"
+                let url = NSURL(string: "mailto:\(email)")
+                UIApplication.shared.openURL(url as! URL)
+                self.present(alert, animated: true, completion: nil)
+                
+                //This is for presenting email segue
+                /*let next = self.storyboard?.instantiateViewController(withIdentifier: "EmailController") as? EmailController
+                //next.ip = ipAddressField.text
+                //next.username = usernameField.text
+                //next.password = passwordField.text
+                self.present(next!, animated: true, completion: nil)*/
                 
             case .cancel:
                 print("cancel")
@@ -52,7 +63,8 @@ extension MapController: MKMapViewDelegate {
         alert.addAction(UIAlertAction(title: "Get driving instructions", style: .default, handler: { action in
             switch action.style{
             case .default:
-                print("default")
+                let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
+                location.mapItem().openInMaps(launchOptions: launchOptions)
                 
             case .cancel:
                 print("cancel")
@@ -61,9 +73,6 @@ extension MapController: MKMapViewDelegate {
                 print("destructive")
             }
         }))
-        
         self.present(alert, animated: true, completion: nil)
-        //let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
-        //location.mapItem().openInMaps(launchOptions: launchOptions)
     }
 }

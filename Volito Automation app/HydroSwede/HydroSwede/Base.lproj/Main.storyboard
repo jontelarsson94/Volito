@@ -7128,10 +7128,10 @@ regenerative operation</string>
             </objects>
             <point key="canvasLocation" x="533" y="-760"/>
         </scene>
-        <!--Send email-->
+        <!--Email Controller-->
         <scene sceneID="pmf-H7-G1E">
             <objects>
-                <viewController title="Send email" id="0UD-8l-51A" customClass="EmailController" customModule="HydroSwede" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EmailController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0UD-8l-51A" customClass="EmailController" customModule="HydroSwede" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UPh-3z-bRA"/>
                         <viewControllerLayoutGuide type="bottom" id="CRr-XQ-Trc"/>
