@@ -28,6 +28,14 @@ extension MapController: MKMapViewDelegate {
                 view.calloutOffset = CGPoint(x: -5, y: 5)
                 view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure) as UIView
             }
+            if #available(iOS 9.0, *) {
+                let subtitleView = UILabel()
+                subtitleView.font = subtitleView.font.withSize(12)
+                subtitleView.numberOfLines = 0
+                subtitleView.text = "\(annotation.address)\n\(annotation.subtitle!)\n\(annotation.number)\n\(annotation.email)"
+                view.detailCalloutAccessoryView = subtitleView
+            }
+            
             return view
         }
         return nil
@@ -35,15 +43,38 @@ extension MapController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let location = view.annotation as! Stores
+        let annotation = view.annotation as! Stores
         let alert = UIAlertController(title: "Choose an option", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Call store", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                let number = annotation.number
+                print(number)
+                let url = NSURL(string: "tel://\(number)")
+                UIApplication.shared.openURL(url as! URL)
+                
+                //This is for presenting email segue
+                /*let next = self.storyboard?.instantiateViewController(withIdentifier: "EmailController") as? EmailController
+                 //next.ip = ipAddressField.text
+                 //next.username = usernameField.text
+                 //next.password = passwordField.text
+                 self.present(next!, animated: true, completion: nil)*/
+                
+            case .cancel:
+                print("cancel")
+                
+            case .destructive:
+                print("destructive")
+            }
+        }))
+        
         alert.addAction(UIAlertAction(title: "Email store", style: .default, handler: { action in
             switch action.style{
             case .default:
                 
-                let email = "kundtjanst@hydsupply.se"
+                let email = annotation.email
                 let url = NSURL(string: "mailto:\(email)")
                 UIApplication.shared.openURL(url as! URL)
-                self.present(alert, animated: true, completion: nil)
                 
                 //This is for presenting email segue
                 /*let next = self.storyboard?.instantiateViewController(withIdentifier: "EmailController") as? EmailController

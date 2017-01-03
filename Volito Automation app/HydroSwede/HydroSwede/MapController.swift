@@ -56,7 +56,7 @@ class MapController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
         }
-        let ornskoldsvik = Stores(title: "Hydsupply", locationName: "Örnsköldsvik", number: "0660 - 266 490", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 63.2900474, longitude: 18.7166166))
+        let ornskoldsvik = Stores(title: "Hydsupply", locationName: "Örnsköldsvik", address: "address", number: "0660-266-490", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 63.2900474, longitude: 18.7166166))
         mapView.addAnnotation(ornskoldsvik)
         
         //print("locations = \(initialLocation.coordinate.latitude) \(initialLocation.coordinate.longitude)")
