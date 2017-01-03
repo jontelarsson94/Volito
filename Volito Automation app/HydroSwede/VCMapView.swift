@@ -73,6 +73,19 @@ extension MapController: MKMapViewDelegate {
                 print("destructive")
             }
         }))
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                alert.dismiss(animated: true, completion: nil)
+                
+            case .cancel:
+                print("cancel")
+                
+            case .destructive:
+                print("destructive")
+            }
+        }))
         self.present(alert, animated: true, completion: nil)
     }
 }
