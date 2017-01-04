@@ -2109,22 +2109,15 @@ Retardation time</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solution provider of Power Motion Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-qs-Goc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Solution provider of Power Motion Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-qs-Goc">
                                 <rect key="frame" x="-140" y="218" width="600" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="A4h-TS-wMI"/>
-                                    <constraint firstAttribute="width" constant="600" id="aBC-U7-PeV"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4C-Lv-0vi">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4C-Lv-0vi">
                                 <rect key="frame" x="16" y="271" width="288" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.078431372549019607" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="FlG-UH-05V"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Hydraulic Calculations">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2140,12 +2133,9 @@ Retardation time</string>
                                     <segue destination="GrN-8n-7rD" kind="show" id="cfp-dy-sVK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8o-ba-eSk">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8o-ba-eSk">
                                 <rect key="frame" x="16" y="313" width="288" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.078431372550000003" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="V9S-e8-YAz"/>
-                                </constraints>
                                 <state key="normal" title="Unit Converter">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2160,18 +2150,12 @@ Retardation time</string>
                                     <segue destination="YKS-SI-Tr0" kind="show" id="6UN-Xe-fW3"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Volito_Automation_logo_2016_LITEN" translatesAutoresizingMaskIntoConstraints="NO" id="fVK-7H-0aB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Volito_Automation_logo_2016_LITEN" translatesAutoresizingMaskIntoConstraints="NO" id="fVK-7H-0aB">
                                 <rect key="frame" x="120" y="108" width="81" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="81" id="qdz-lP-Kpv"/>
-                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Z-en-i6A">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Z-en-i6A">
                                 <rect key="frame" x="16" y="355" width="288" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.078431372550000003" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="evr-vf-dDh"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Find Closest Store"/>
@@ -2185,12 +2169,9 @@ Retardation time</string>
                                     <segue destination="k0c-Qw-gll" kind="show" id="4Wb-XN-BMV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzj-Xf-pKe">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzj-Xf-pKe">
                                 <rect key="frame" x="16" y="393" width="288" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.078431372550000003" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="4jm-HV-nM2"/>
-                                </constraints>
                                 <state key="normal" title="About Volito Automation AB">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2208,23 +2189,24 @@ Retardation time</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="P8o-ba-eSk" secondAttribute="trailing" id="5rm-QC-7yx"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="P8o-ba-eSk" secondAttribute="leading" id="7k7-Nt-Jep"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="P8o-ba-eSk" secondAttribute="trailing" id="Fdt-EQ-3kU"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="top" secondItem="P8o-ba-eSk" secondAttribute="bottom" constant="8" symbolic="YES" id="OcG-JR-gTL"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="SBR-lq-Xzs"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="P8o-ba-eSk" secondAttribute="leading" id="VU6-mh-UcY"/>
-                            <constraint firstItem="P8o-ba-eSk" firstAttribute="top" secondItem="Q4C-Lv-0vi" secondAttribute="bottom" constant="8" symbolic="YES" id="a3v-Wj-ByM"/>
-                            <constraint firstItem="ENq-qs-Goc" firstAttribute="top" secondItem="fVK-7H-0aB" secondAttribute="bottom" constant="46" id="anH-9d-Pj2"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="Fzj-Xf-pKe" secondAttribute="leading" id="cJv-bP-sRj"/>
-                            <constraint firstItem="fVK-7H-0aB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="cPH-10-tM1"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="top" secondItem="ENq-qs-Goc" secondAttribute="bottom" constant="32" id="caz-Tn-89D"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="dA1-bz-JgT"/>
-                            <constraint firstItem="fVK-7H-0aB" firstAttribute="centerX" secondItem="ENq-qs-Goc" secondAttribute="centerX" id="ebG-Jb-7Tr"/>
-                            <constraint firstItem="ENq-qs-Goc" firstAttribute="centerX" secondItem="Q4C-Lv-0vi" secondAttribute="centerX" id="n1q-S5-fu8"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Fzj-Xf-pKe" secondAttribute="bottom" constant="141" id="qHg-2a-wXf"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="Fzj-Xf-pKe" secondAttribute="trailing" id="vKF-d9-vxx"/>
-                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="top" secondItem="b3Z-en-i6A" secondAttribute="bottom" constant="8" symbolic="YES" id="yFw-Ke-LzM"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="33y-AC-ir2"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="top" secondItem="Q4C-Lv-0vi" secondAttribute="bottom" constant="8" id="3u0-Q4-UlN"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="top" secondItem="b3Z-en-i6A" secondAttribute="bottom" constant="8" id="5oS-gG-XQQ"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="6Ij-DG-Foa"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="AmQ-p7-LcM"/>
+                            <constraint firstItem="ENq-qs-Goc" firstAttribute="top" secondItem="fVK-7H-0aB" secondAttribute="bottom" constant="46" id="KQd-UD-PEo"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Pf4-aL-pfU"/>
+                            <constraint firstItem="ENq-qs-Goc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="-140" id="RSQ-Rv-V5q"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="top" secondItem="P8o-ba-eSk" secondAttribute="bottom" constant="8" id="VUm-i6-m8x"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="YAI-dz-NqY"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="top" secondItem="ENq-qs-Goc" secondAttribute="bottom" constant="32" id="aFz-hw-G1y"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="104" id="d2S-yu-NIX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fVK-7H-0aB" secondAttribute="trailing" constant="103" id="h6k-Xv-xEO"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="hhb-lf-oza"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="uQU-y9-v7b"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="vKZ-3Y-H2K"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="wpQ-0C-2xY"/>
+                            <constraint firstAttribute="trailing" secondItem="ENq-qs-Goc" secondAttribute="trailing" constant="-140" id="yIf-If-NK4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iNl-RQ-q9D"/>
