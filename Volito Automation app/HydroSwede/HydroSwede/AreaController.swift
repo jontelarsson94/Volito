@@ -14,12 +14,20 @@ class AreaController: UIViewController {
     @IBOutlet weak var cmText: UITextField!
     @IBOutlet weak var ftText: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
 
         // Do any additional setup after loading the view.
     }
+    
+    
     @IBAction func fromInch(_ sender: UIButton) {
         
         if(inchText.text == "")

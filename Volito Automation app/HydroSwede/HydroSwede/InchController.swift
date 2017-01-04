@@ -15,8 +15,14 @@ class InchController: UIViewController {
     @IBOutlet weak var mmField: UITextField!
     @IBOutlet weak var ftField: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
 
         // Do any additional setup after loading the view.
     }

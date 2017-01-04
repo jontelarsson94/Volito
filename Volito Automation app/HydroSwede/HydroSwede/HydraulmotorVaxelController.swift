@@ -16,6 +16,10 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
     
     let pi = Float(M_PI)
     @IBOutlet weak var D32Text: UITextField!
@@ -34,6 +38,9 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         D32Text.delegate = self
         D31Text.delegate = self
         D30Text.delegate = self

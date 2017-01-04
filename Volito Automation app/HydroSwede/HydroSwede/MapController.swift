@@ -13,15 +13,23 @@ import CoreLocation
 class MapController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
-    let regionRadius: CLLocationDistance = 5000000
+    var regionRadius: CLLocationDistance = 2128000.0
     var first = true
+    let ornskoldsvik = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Kavelvägen 14\n894 35 SJÄLEVAD", number: "0660-266-490", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 63.28636290000001, longitude: 18.59827310000003))
+    let borlange = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Maskingränd 4\n781 72 BORLÄNGE", number: "0243-81-222", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 60.4673689, longitude: 15.456168899999966))
+    let kiruna = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Fasadvägen 24\n981 41 Kiruna", number: "+46-761-400-566", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 67.840614, longitude: 20.33741))
+    let skelleftea = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Gymnasievägen 16\n931 57 SKELLEFTEÅ", number: "0910-725-580", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 64.7346985, longitude: 20.97330039999997))
+    let smalandsstenar = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Skruvgatan 9\n333 24 SMÅLANDSSTENAR", number: "0371-523-850", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 57.1500229, longitude: 13.385861900000009))
+    let stockholm = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Fågelviksvägen 18\n145 53 Norsborg", number: "076-1400-560", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 59.25587600000001, longitude: 17.86953970000002))
     //var initialLocation = CLLocation()
+    
+    var annos = [Stores]()
     
     let locationManager = CLLocationManager()
     
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius * 2.0, regionRadius * 2.0)
+                                                                  regionRadius * 2.1, regionRadius * 2.1)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
@@ -30,7 +38,15 @@ class MapController: UIViewController, CLLocationManagerDelegate {
         if let locValue = locations.first {
             print("Found user's location: \(locValue)")
             if(first == true){
-                centerMapOnLocation(location: CLLocation(latitude: locValue.coordinate.latitude, longitude: locValue.coordinate.longitude))
+                var centerLocation = CLLocation()
+                for object in annos {
+                    let locationTwo = CLLocation(latitude: object.coordinate.latitude, longitude: object.coordinate.longitude)
+                    if(locValue.distance(from: locationTwo) < regionRadius){
+                        regionRadius = locValue.distance(from: locationTwo)
+                        centerLocation = locationTwo
+                    }
+                }
+                centerMapOnLocation(location: CLLocation(latitude: centerLocation.coordinate.latitude, longitude: centerLocation.coordinate.longitude))
                 first = false
             }
         }
@@ -42,8 +58,13 @@ class MapController: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         mapView.delegate = self
+        annos.append(ornskoldsvik)
+        annos.append(borlange)
+        annos.append(kiruna)
+        annos.append(skelleftea)
+        annos.append(smalandsstenar)
+        annos.append(stockholm)
         
         // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()
@@ -56,8 +77,10 @@ class MapController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
         }
-        let ornskoldsvik = Stores(title: "Hydsupply", locationName: "Örnsköldsvik", address: "address", number: "0660-266-490", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 63.2900474, longitude: 18.7166166))
-        mapView.addAnnotation(ornskoldsvik)
+        
+        for object in annos {
+            mapView.addAnnotation(object)
+        }
         
         //print("locations = \(initialLocation.coordinate.latitude) \(initialLocation.coordinate.longitude)")
     }

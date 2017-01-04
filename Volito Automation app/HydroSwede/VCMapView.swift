@@ -32,7 +32,7 @@ extension MapController: MKMapViewDelegate {
                 let subtitleView = UILabel()
                 subtitleView.font = subtitleView.font.withSize(12)
                 subtitleView.numberOfLines = 0
-                subtitleView.text = "\(annotation.address)\n\(annotation.subtitle!)\n\(annotation.number)\n\(annotation.email)"
+                subtitleView.text = "\(annotation.subtitle!)"
                 view.detailCalloutAccessoryView = subtitleView
             }
             

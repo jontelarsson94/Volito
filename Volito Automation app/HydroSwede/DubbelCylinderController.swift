@@ -37,8 +37,16 @@ class DubbelCylinderController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var kolvSwitch: UISwitch!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         kolvText.delegate = self
         kolvstångText.delegate = self
         slaglängdText.delegate = self

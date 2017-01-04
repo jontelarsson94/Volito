@@ -14,9 +14,15 @@ class GallonController: UIViewController {
     @IBOutlet weak var literText: UITextField!
     @IBOutlet weak var impText: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
 
         // Do any additional setup after loading the view.
     }

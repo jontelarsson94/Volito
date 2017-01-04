@@ -12,6 +12,11 @@ let PI = M_PI
 
 class StrypningController: UIViewController, UITextFieldDelegate {
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
@@ -27,6 +32,9 @@ class StrypningController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         S5Text.delegate = self
         S6Text.delegate = self
         S8Text.delegate = self

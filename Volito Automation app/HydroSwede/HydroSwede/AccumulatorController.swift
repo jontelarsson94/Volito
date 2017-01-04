@@ -23,6 +23,11 @@ class AccumulatorController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var iaSecond: UITextField!
     @IBOutlet weak var förladdningText: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     func resign(){
         önskadText.resignFirstResponder()
         minText.resignFirstResponder()
@@ -102,6 +107,9 @@ class AccumulatorController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         önskadText.delegate = self
         minText.delegate = self
         maxText.delegate = self

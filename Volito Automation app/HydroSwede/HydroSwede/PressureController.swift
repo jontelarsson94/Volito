@@ -14,8 +14,15 @@ class PressureController: UIViewController {
     @IBOutlet weak var BarTextField: UITextField!
     @IBOutlet weak var PsiTextField: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
 
         // Do any additional setup after loading the view.
     }

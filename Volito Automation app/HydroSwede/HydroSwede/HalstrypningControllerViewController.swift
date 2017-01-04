@@ -18,6 +18,11 @@ class HalstrypningControllerViewController: UIViewController, UITextFieldDelegat
     @IBOutlet weak var D29Text: UITextField!
     @IBOutlet weak var D30Text: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     let PI = M_PI
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -59,6 +64,9 @@ class HalstrypningControllerViewController: UIViewController, UITextFieldDelegat
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         D24Text.delegate = self
         D25Text.delegate = self
         D26Text.delegate = self

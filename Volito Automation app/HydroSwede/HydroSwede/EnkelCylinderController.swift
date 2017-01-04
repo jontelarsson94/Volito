@@ -32,6 +32,11 @@ class EnkelCylinderController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     let pi = Float(M_PI)
     @IBOutlet weak var D30Text: UITextField!
     @IBOutlet weak var D31Text: UITextField!
@@ -77,6 +82,9 @@ class EnkelCylinderController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         D30Text.delegate = self
         D31Text.delegate = self
         D32Text.delegate = self

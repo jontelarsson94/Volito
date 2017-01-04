@@ -25,6 +25,11 @@ class RorstrypningController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var D46Text: UITextField!
     @IBOutlet weak var D47Text: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     
     let PI = M_PI
     
@@ -95,6 +100,9 @@ class RorstrypningController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         D36Text.delegate = self
         D37Text.delegate = self
         D38Text.delegate = self

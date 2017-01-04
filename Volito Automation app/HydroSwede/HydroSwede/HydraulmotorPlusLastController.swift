@@ -27,8 +27,16 @@ class HydraulmotorPlusLastController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var N24: UITextField!
     @IBOutlet weak var N25: UITextField!
     
+    func showMap(){
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
+        self.show(next!, sender: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        
         N19Text.delegate = self
         N20Text.delegate = self
         N21Text.delegate = self
