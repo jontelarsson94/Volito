@@ -25,7 +25,6 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var D32Text: UITextField!
     @IBOutlet weak var D31Text: UITextField!
     @IBOutlet weak var D30Text: UITextField!
-    @IBOutlet weak var D29Text: UITextField!
     @IBOutlet weak var D27Text: UITextField!
     @IBOutlet weak var D26Text: UITextField!
     @IBOutlet weak var D28Text: UITextField!
@@ -44,7 +43,6 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
         D32Text.delegate = self
         D31Text.delegate = self
         D30Text.delegate = self
-        D29Text.delegate = self
         D27Text.delegate = self
         D26Text.delegate = self
         D28Text.delegate = self
@@ -69,7 +67,7 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
         let D26 = D26Text.text!.floatValue
         let D27 = D27Text.text!.floatValue
         let D28 = D28Text.text!.floatValue
-        let D29 = D29Text.text!.floatValue
+        let D29 = "1".floatValue
         let D30 = D30Text.text!.floatValue
         let D31 = D31Text.text!.floatValue
         let D32 = D32Text.text!.floatValue
@@ -90,7 +88,6 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
         D32Text.resignFirstResponder()
         D31Text.resignFirstResponder()
         D30Text.resignFirstResponder()
-        D29Text.resignFirstResponder()
         D27Text.resignFirstResponder()
         D26Text.resignFirstResponder()
         D28Text.resignFirstResponder()
@@ -109,7 +106,6 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
         D26Text.text = ""
         D27Text.text = ""
         D28Text.text = ""
-        D29Text.text = "1.00"
         D30Text.text = "0.65"
         D31Text.text = "0.85"
         D32Text.text = "0.70"
