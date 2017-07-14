@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     
     @IBAction func AboutClick(_ sender: UIButton) {
         UIApplication.shared.openURL(URL(string: "http://www.volitoautomation.se")!);
