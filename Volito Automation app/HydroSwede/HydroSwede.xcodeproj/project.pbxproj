@@ -32,6 +32,7 @@
 		46F7E3381D187748006645CC /* FlowDividerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F7E3371D187748006645CC /* FlowDividerController.swift */; };
 		46F977011E16A73D00BE7C68 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F977001E16A73D00BE7C68 /* MapController.swift */; };
 		46F977031E16B5FA00BE7C68 /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F977021E16B5FA00BE7C68 /* Stores.swift */; };
+		D36AB0F46740958A9B642F05 /* Pods_HydroSwede.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8671D9A3172176CA622D78ED /* Pods_HydroSwede.framework */; };
 		FDCE09371D62592B00D609F5 /* HalstrypningControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE09361D62592B00D609F5 /* HalstrypningControllerViewController.swift */; };
 		FDCE09391D62594400D609F5 /* RorstrypningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE09381D62594400D609F5 /* RorstrypningController.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AC9842280C80749F8040B05 /* Pods-HydroSwede.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSwede.release.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSwede/Pods-HydroSwede.release.xcconfig"; sourceTree = "<group>"; };
 		461D6F261B2DA8A2005517B4 /* HCalculationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCalculationsController.swift; sourceTree = "<group>"; };
 		461D6F281B2DE1D7005517B4 /* AccumulatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccumulatorController.swift; sourceTree = "<group>"; };
 		461D6F2A1B31B960005517B4 /* InchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InchController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,8 @@
 		46F7E3371D187748006645CC /* FlowDividerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowDividerController.swift; sourceTree = "<group>"; };
 		46F977001E16A73D00BE7C68 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		46F977021E16B5FA00BE7C68 /* Stores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
+		7A0F6679660DF95176C9BBEC /* Pods-HydroSwede.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroSwede.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HydroSwede/Pods-HydroSwede.debug.xcconfig"; sourceTree = "<group>"; };
+		8671D9A3172176CA622D78ED /* Pods_HydroSwede.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroSwede.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCE09361D62592B00D609F5 /* HalstrypningControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalstrypningControllerViewController.swift; sourceTree = "<group>"; };
 		FDCE09381D62594400D609F5 /* RorstrypningController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RorstrypningController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36AB0F46740958A9B642F05 /* Pods_HydroSwede.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +103,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014301CE6CD4BD058FF80B1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8671D9A3172176CA622D78ED /* Pods_HydroSwede.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D9F4DC4DA2A226123412614 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0F6679660DF95176C9BBEC /* Pods-HydroSwede.debug.xcconfig */,
+				1AC9842280C80749F8040B05 /* Pods-HydroSwede.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		46EDE0531B27642C0097F454 = {
 			isa = PBXGroup;
 			children = (
 				46EDE05E1B27642C0097F454 /* HydroSwede */,
 				46EDE0741B27642D0097F454 /* HydroSwedeTests */,
 				46EDE05D1B27642C0097F454 /* Products */,
+				3D9F4DC4DA2A226123412614 /* Pods */,
+				014301CE6CD4BD058FF80B1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EDE07B1B27642D0097F454 /* Build configuration list for PBXNativeTarget "HydroSwede" */;
 			buildPhases = (
+				03ECD42BFDAAF7DF1C8BEC8F /* [CP] Check Pods Manifest.lock */,
 				46EDE0581B27642C0097F454 /* Sources */,
 				46EDE0591B27642C0097F454 /* Frameworks */,
 				46EDE05A1B27642C0097F454 /* Resources */,
+				438BDBE3E254C195D60B0316 /* [CP] Embed Pods Frameworks */,
+				BA08C47790D7622FD8C2407F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +300,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03ECD42BFDAAF7DF1C8BEC8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		438BDBE3E254C195D60B0316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HydroSwede/Pods-HydroSwede-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA08C47790D7622FD8C2407F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HydroSwede/Pods-HydroSwede-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46EDE0581B27642C0097F454 /* Sources */ = {
@@ -432,6 +507,7 @@
 		};
 		46EDE07C1B27642D0097F454 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0F6679660DF95176C9BBEC /* Pods-HydroSwede.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -448,6 +524,7 @@
 		};
 		46EDE07D1B27642D0097F454 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC9842280C80749F8040B05 /* Pods-HydroSwede.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

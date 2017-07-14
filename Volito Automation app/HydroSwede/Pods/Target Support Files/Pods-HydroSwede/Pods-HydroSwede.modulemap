@@ -1,0 +1,6 @@
+framework module Pods_HydroSwede {
+  umbrella header "Pods-HydroSwede-umbrella.h"
+
+  export *
+  module * { export * }
+}
