@@ -2873,7 +2873,7 @@ is then</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fHH-lF-zHn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2412" y="-305"/>
+            <point key="canvasLocation" x="2426" y="-370"/>
         </scene>
         <!--Sharp-edged hole strangulation-->
         <scene sceneID="FjW-ZC-xk5">
@@ -3634,7 +3634,7 @@ number</string>
         <!--Unit Converter-->
         <scene sceneID="1aJ-kI-Z7F">
             <objects>
-                <viewController title="Unit Converter" id="YKS-SI-Tr0" sceneMemberID="viewController">
+                <viewController title="Unit Converter" id="YKS-SI-Tr0" customClass="HCalculationsController" customModule="HydroSwede" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5WW-7V-Jq8"/>
                         <viewControllerLayoutGuide type="bottom" id="Vqj-Tg-WIM"/>
@@ -7081,7 +7081,9 @@ regenerative operation</string>
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HV5-72-f21" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="2r5-hz-nyK"/>
+                    <navigationItem key="navigationItem" id="2r5-hz-nyK">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="hsH-rF-MeB"/>
+                    </navigationItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kGU-hK-u3A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
