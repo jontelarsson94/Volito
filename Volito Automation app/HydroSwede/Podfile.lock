@@ -1,12 +1,15 @@
 PODS:
+  - PWSwitch (1.1.0)
   - SkyFloatingLabelTextField (3.2.0)
 
 DEPENDENCIES:
+  - PWSwitch
   - SkyFloatingLabelTextField (~> 3.2)
 
 SPEC CHECKSUMS:
+  PWSwitch: e5a45cb84ff794a4d651812cce1f061764629ed3
   SkyFloatingLabelTextField: 4e2d2f7160af660ed1da6bb9d0027b5c474b4b79
 
-PODFILE CHECKSUM: 93760dec63d95b03d0685f78d5c3adbdd1af31b1
+PODFILE CHECKSUM: 1ac929fc773188b7e4a81c0446e77added29478c
 
 COCOAPODS: 1.2.1

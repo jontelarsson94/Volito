@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>PWSwitch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-HydroSwede.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1BE36E3222A87FF7B23362FF84917140</key>
+		<key>224360A6E4D47E64ED3E1D96FCC5067F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AA26944B168099BD0398D065C9160E8F</key>
+		<key>59AF01E383AEFABE6997E11516894075</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DD3FCEE27DC16ABFBC9244044B0D13F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
