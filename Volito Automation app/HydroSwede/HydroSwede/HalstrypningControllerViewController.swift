@@ -65,7 +65,8 @@ class HalstrypningControllerViewController: UIViewController, UITextFieldDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Find Store", style: .plain, target: self, action: #selector(showMap))
+        let myimage = UIImage(named: "map")?.withRenderingMode(.alwaysOriginal)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: myimage, style: .plain, target: self, action: #selector(showMap))
         
         D24Text.delegate = self
         D25Text.delegate = self

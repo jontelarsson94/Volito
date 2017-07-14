@@ -21,6 +21,9 @@ class MapController: UIViewController, CLLocationManagerDelegate {
     let skelleftea = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Gymnasievägen 16\n931 57 SKELLEFTEÅ", number: "0910-725-580", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 64.7346985, longitude: 20.97330039999997))
     let smalandsstenar = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Skruvgatan 9\n333 24 SMÅLANDSSTENAR", number: "0371-523-850", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 57.1500229, longitude: 13.385861900000009))
     let stockholm = Stores(title: "Hydraulic Supplier i Norden AB", locationName: "Fågelviksvägen 18\n145 53 Norsborg", number: "076-1400-560", email: "kundtjanst@hydsupply.se", coordinate: CLLocationCoordinate2D(latitude: 59.25587600000001, longitude: 17.86953970000002))
+    let vetlanda = Stores(title: "HINDAB - Hydraulik & Industriservice AB", locationName: "Brogårdsgatan 1\n574 23 Vetlanda", number: "0383-101-25", email: "v@hindab.se", coordinate: CLLocationCoordinate2D(latitude: 57.4193712, longitude: 15.0828084))
+    let nassjo = Stores(title: "HINDAB - Hydraulik & Industriservice AB", locationName: "Kapvägen 1\n571 34 Nässjö", number: "0380-184-00", email: "n@hindab.se", coordinate: CLLocationCoordinate2D(latitude: 57.6680467, longitude: 14.6899695))
+    let tranas = Stores(title: "HINDAB - Hydraulik & Industriservice AB", locationName: "Västra Vägen 27\n573 41 Tranås", number: "0140-161-56", email: "t@hindab.se", coordinate: CLLocationCoordinate2D(latitude: 58.0375976, longitude: 14.9713439))
     //var initialLocation = CLLocation()
     
     var annos = [Stores]()
@@ -65,6 +68,9 @@ class MapController: UIViewController, CLLocationManagerDelegate {
         annos.append(skelleftea)
         annos.append(smalandsstenar)
         annos.append(stockholm)
+        annos.append(vetlanda)
+        annos.append(nassjo)
+        annos.append(tranas)
         
         // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()

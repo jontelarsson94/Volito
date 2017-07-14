@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func AboutClick(_ sender: UIButton) {
-        UIApplication.shared.openURL(URL(string: "http://www.volitoautomation.se")!);
+        UIApplication.shared.openURL(URL(string: "https://www.hydsupply.se/Meny/Om_oss/Om_HydSupply")!);
     }
     
     override func viewDidLoad() {

@@ -2032,21 +2032,11 @@ Retardation time</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solution provider of Power Motion Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-qs-Goc">
-                                <rect key="frame" x="-140" y="218" width="600" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="600" id="UVb-EV-hoQ"/>
-                                    <constraint firstAttribute="height" constant="21" id="YgT-ms-xPr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4C-Lv-0vi">
-                                <rect key="frame" x="16" y="271" width="288" height="48"/>
+                                <rect key="frame" x="16" y="260" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="DeQ-E3-tHR"/>
+                                    <constraint firstAttribute="height" constant="48" id="uOO-pO-59r"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <state key="normal" title="Hydraulic Calculations">
@@ -2064,15 +2054,15 @@ Retardation time</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8o-ba-eSk">
-                                <rect key="frame" x="16" y="327" width="288" height="48"/>
+                                <rect key="frame" x="16" y="316" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="b3X-CJ-aYr"/>
+                                    <constraint firstAttribute="height" constant="48" id="1c1-NT-cTH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <state key="normal" title="Unit Converter">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -2084,21 +2074,18 @@ Retardation time</string>
                                     <segue destination="YKS-SI-Tr0" kind="show" id="6UN-Xe-fW3"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Volito_Automation_logo_2016_LITEN" translatesAutoresizingMaskIntoConstraints="NO" id="fVK-7H-0aB">
-                                <rect key="frame" x="120" y="108" width="81" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="81" id="NMh-q8-hG9"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Z-en-i6A">
-                                <rect key="frame" x="16" y="383" width="288" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3Z-en-i6A">
+                                <rect key="frame" x="16" y="372" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="nhp-tl-gXp"/>
+                                    <constraint firstAttribute="height" constant="48" id="TiH-6b-jU7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Find Closest Store"/>
+                                <state key="normal" title="Find Closest Store">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
@@ -2110,13 +2097,13 @@ Retardation time</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzj-Xf-pKe">
-                                <rect key="frame" x="16" y="439" width="288" height="48"/>
+                                <rect key="frame" x="16" y="428" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="8sS-3V-xv4"/>
+                                    <constraint firstAttribute="height" constant="48" id="kIE-eQ-HuF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <state key="normal" title="About Volito Automation AB">
+                                <state key="normal" title="About HydSupply AB">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -2130,33 +2117,37 @@ Retardation time</string>
                                     <action selector="AboutClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Hsr-Nl-4xX"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hydsupply_stor" translatesAutoresizingMaskIntoConstraints="NO" id="fVK-7H-0aB">
+                                <rect key="frame" x="16" y="164" width="288" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="AYW-bx-3RE"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="P8o-ba-eSk" firstAttribute="trailing" secondItem="b3Z-en-i6A" secondAttribute="trailing" id="25U-yh-zaf"/>
-                            <constraint firstItem="fVK-7H-0aB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="6Xm-af-5Gv"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="Fzj-Xf-pKe" secondAttribute="trailing" id="858-Dd-knK"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="P8o-ba-eSk" secondAttribute="leading" id="CI5-D6-xP6"/>
-                            <constraint firstItem="ENq-qs-Goc" firstAttribute="centerX" secondItem="Q4C-Lv-0vi" secondAttribute="centerX" id="F5f-C6-Jpv"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="P8o-ba-eSk" secondAttribute="trailing" id="GOo-Je-bVz"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="top" secondItem="ENq-qs-Goc" secondAttribute="bottom" constant="32" id="Hfw-7e-4rf"/>
-                            <constraint firstItem="P8o-ba-eSk" firstAttribute="top" secondItem="Q4C-Lv-0vi" secondAttribute="bottom" constant="8" symbolic="YES" id="L6M-Yz-fsP"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Fzj-Xf-pKe" secondAttribute="bottom" constant="81" id="R0w-Zu-I5D"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="XNg-ng-Bvo"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="YbD-0w-Ymd"/>
-                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="top" secondItem="b3Z-en-i6A" secondAttribute="bottom" constant="8" symbolic="YES" id="ha4-lP-f4S"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="Fzj-Xf-pKe" secondAttribute="leading" id="kgg-tk-OGd"/>
-                            <constraint firstItem="P8o-ba-eSk" firstAttribute="leading" secondItem="b3Z-en-i6A" secondAttribute="leading" id="mYd-iG-09g"/>
-                            <constraint firstItem="fVK-7H-0aB" firstAttribute="centerX" secondItem="ENq-qs-Goc" secondAttribute="centerX" id="nxa-l3-YBo"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="top" secondItem="P8o-ba-eSk" secondAttribute="bottom" constant="8" symbolic="YES" id="qzc-jg-Uot"/>
-                            <constraint firstItem="ENq-qs-Goc" firstAttribute="top" secondItem="fVK-7H-0aB" secondAttribute="bottom" constant="46" id="vim-s9-l6j"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="2cw-6m-083"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="DoW-gF-4Es"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Jzg-3B-han"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="L7Y-ne-95H"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="LSP-bY-hjg"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="top" secondItem="b3Z-en-i6A" secondAttribute="bottom" constant="8" id="Lco-1b-Wbs"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="aUt-Zg-evg"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="bqF-xW-2bb"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="cDZ-Qs-PAZ"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="iYP-V2-d4F"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="kx0-0F-6sb"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="top" secondItem="P8o-ba-eSk" secondAttribute="bottom" constant="8" id="kyc-bQ-LDK"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="m4u-5M-xaM"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="uFD-Kw-WZH"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="top" secondItem="Q4C-Lv-0vi" secondAttribute="bottom" constant="8" id="wy7-bf-hYM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iNl-RQ-q9D"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1226" y="427"/>
+            <point key="canvasLocation" x="1224.375" y="426.25"/>
         </scene>
         <!--Accumulator Calculations-->
         <scene sceneID="qbd-gU-uxm">
@@ -2677,8 +2668,8 @@ Retardation time</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCg-gs-hed">
-                                <rect key="frame" x="20" y="187" width="280" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCg-gs-hed">
+                                <rect key="frame" x="20" y="231" width="280" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.078431372550000003" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sharp-edged hole orifices">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2693,8 +2684,8 @@ Retardation time</string>
                                     <segue destination="vck-Ui-N1C" kind="show" id="Pjt-4Y-Egy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8S-XX-JKe">
-                                <rect key="frame" x="20" y="225" width="280" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8S-XX-JKe">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.078431372550000003" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sharp-edged pipe orifices">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2709,8 +2700,8 @@ Retardation time</string>
                                     <segue destination="kW4-gU-Wct" kind="show" id="1vK-nc-Ych"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYL-tX-gfn">
-                                <rect key="frame" x="20" y="263" width="280" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYL-tX-gfn">
+                                <rect key="frame" x="20" y="307" width="280" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.078431372550000003" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Viscosity calculation">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -7262,7 +7253,7 @@ regenerative operation</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Volito_Automation_logo_2016_LITEN" width="108" height="106"/>
+        <image name="hydsupply_stor" width="467" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="E8W-EB-Zi2"/>
