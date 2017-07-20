@@ -2040,7 +2040,7 @@ Retardation time</string>
                                 <rect key="frame" x="16" y="260" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="uOO-pO-59r"/>
+                                    <constraint firstAttribute="height" constant="48" id="83a-JV-C0s"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <state key="normal" title="Hydraulic Calculations">
@@ -2061,7 +2061,7 @@ Retardation time</string>
                                 <rect key="frame" x="16" y="316" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="1c1-NT-cTH"/>
+                                    <constraint firstAttribute="height" constant="48" id="KVA-wb-nHC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <state key="normal" title="Unit Converter">
@@ -2082,7 +2082,7 @@ Retardation time</string>
                                 <rect key="frame" x="16" y="372" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="TiH-6b-jU7"/>
+                                    <constraint firstAttribute="height" constant="48" id="uLa-J1-Ovb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2104,7 +2104,7 @@ Retardation time</string>
                                 <rect key="frame" x="16" y="428" width="288" height="48"/>
                                 <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="kIE-eQ-HuF"/>
+                                    <constraint firstAttribute="height" constant="48" id="yxz-E8-P9m"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <state key="normal" title="About HydSupply AB">
@@ -2121,37 +2121,49 @@ Retardation time</string>
                                     <action selector="AboutClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Hsr-Nl-4xX"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hydsupply_stor" translatesAutoresizingMaskIntoConstraints="NO" id="fVK-7H-0aB">
-                                <rect key="frame" x="16" y="164" width="288" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HydSupply AB disclaims all responsibilities for any errors in the application" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQP-Z0-Sfk">
+                                <rect key="frame" x="16" y="549" width="288" height="11"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="AYW-bx-3RE"/>
+                                    <constraint firstAttribute="height" constant="11" id="EqL-Nz-elN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hydsupply_stor" translatesAutoresizingMaskIntoConstraints="NO" id="fVK-7H-0aB">
+                                <rect key="frame" x="16" y="158" width="288" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="RQE-MA-g4w"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="2cw-6m-083"/>
-                            <constraint firstItem="fVK-7H-0aB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="DoW-gF-4Es"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Jzg-3B-han"/>
-                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="L7Y-ne-95H"/>
-                            <constraint firstItem="P8o-ba-eSk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="LSP-bY-hjg"/>
-                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="top" secondItem="b3Z-en-i6A" secondAttribute="bottom" constant="8" id="Lco-1b-Wbs"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="aUt-Zg-evg"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="bqF-xW-2bb"/>
-                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="cDZ-Qs-PAZ"/>
-                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="iYP-V2-d4F"/>
-                            <constraint firstItem="fVK-7H-0aB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="kx0-0F-6sb"/>
-                            <constraint firstItem="b3Z-en-i6A" firstAttribute="top" secondItem="P8o-ba-eSk" secondAttribute="bottom" constant="8" id="kyc-bQ-LDK"/>
-                            <constraint firstItem="P8o-ba-eSk" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="m4u-5M-xaM"/>
-                            <constraint firstItem="fVK-7H-0aB" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="uFD-Kw-WZH"/>
-                            <constraint firstItem="P8o-ba-eSk" firstAttribute="top" secondItem="Q4C-Lv-0vi" secondAttribute="bottom" constant="8" id="wy7-bf-hYM"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="54X-d3-zFg"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="top" secondItem="Q4C-Lv-0vi" secondAttribute="bottom" constant="8" id="7V0-cl-9dP"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="CgA-Xf-feu"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="HJE-8c-zye"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="JKX-Ab-p76"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="lQP-Z0-Sfk" secondAttribute="bottom" constant="8" id="PCm-TZ-GQC"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Rff-mf-au7"/>
+                            <constraint firstItem="lQP-Z0-Sfk" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Sur-uQ-9N8"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="top" secondItem="b3Z-en-i6A" secondAttribute="bottom" constant="8" id="UWH-2U-kmQ"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="YO4-uZ-OBg"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="top" secondItem="P8o-ba-eSk" secondAttribute="bottom" constant="8" id="aoZ-t9-YjS"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="94" id="cw3-zi-cWG"/>
+                            <constraint firstItem="lQP-Z0-Sfk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="pem-MR-qUy"/>
+                            <constraint firstItem="Q4C-Lv-0vi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="qzL-S6-F6z"/>
+                            <constraint firstItem="fVK-7H-0aB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="rnY-mJ-L7g"/>
+                            <constraint firstItem="Fzj-Xf-pKe" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="tEw-bg-AOb"/>
+                            <constraint firstItem="b3Z-en-i6A" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="urs-YE-cZL"/>
+                            <constraint firstItem="P8o-ba-eSk" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="xdz-0Z-tgD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iNl-RQ-q9D"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1224.375" y="426.25"/>
+            <point key="canvasLocation" x="1224.375" y="425.7042253521127"/>
         </scene>
         <!--Accumulator Calculations-->
         <scene sceneID="qbd-gU-uxm">
