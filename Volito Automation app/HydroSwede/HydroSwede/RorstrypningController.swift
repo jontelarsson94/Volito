@@ -39,7 +39,18 @@ class RorstrypningController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func ResetClick(_ sender: UIButton) {
-        
+        D36Text.text = ""
+        D37Text.text = ""
+        D38Text.text = ""
+        D39Text.text = ""
+        D40Text.text = ""
+        D41Text.text = ""
+        D42Text.text = ""
+        D43Text.text = ""
+        D44Text.text = ""
+        D45Text.text = ""
+        D46Text.text = ""
+        D47Text.text = ""
     }
     
     
