@@ -14,7 +14,7 @@ class PressureController: UIViewController {
     @IBOutlet weak var BarTextField: UITextField!
     @IBOutlet weak var PsiTextField: UITextField!
     
-    func showMap(){
+    @objc func showMap(){
         let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
         self.show(next!, sender: true)
     }

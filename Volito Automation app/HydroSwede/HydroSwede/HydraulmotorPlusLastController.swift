@@ -27,7 +27,7 @@ class HydraulmotorPlusLastController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var N24: UITextField!
     @IBOutlet weak var N25: UITextField!
     
-    func showMap(){
+    @objc func showMap(){
         let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
         self.show(next!, sender: true)
     }

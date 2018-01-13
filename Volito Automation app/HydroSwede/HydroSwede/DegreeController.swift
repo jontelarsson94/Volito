@@ -14,7 +14,7 @@ class DegreeController: UIViewController {
     @IBOutlet weak var textFieldCels: UITextField!
     @IBOutlet weak var textFieldKelv: UITextField!
     
-    func showMap(){
+    @objc func showMap(){
         let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
         self.show(next!, sender: true)
     }

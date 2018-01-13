@@ -12,7 +12,7 @@ let PI = M_PI
 
 class StrypningController: UIViewController, UITextFieldDelegate {
     
-    func showMap(){
+    @objc func showMap(){
         let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
         self.show(next!, sender: true)
     }

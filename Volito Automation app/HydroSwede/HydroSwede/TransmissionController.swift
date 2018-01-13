@@ -20,7 +20,7 @@ class TransmissionController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var deplacementText: UITextField!
     @IBOutlet weak var totalVerkningText: UITextField!
     
-    func showMap(){
+    @objc func showMap(){
         let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
         self.show(next!, sender: true)
     }

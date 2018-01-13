@@ -14,7 +14,7 @@ class GallonController: UIViewController {
     @IBOutlet weak var literText: UITextField!
     @IBOutlet weak var impText: UITextField!
     
-    func showMap(){
+    @objc func showMap(){
         let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
         self.show(next!, sender: true)
     }

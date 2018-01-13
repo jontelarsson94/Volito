@@ -14,7 +14,7 @@ class AreaController: UIViewController {
     @IBOutlet weak var cmText: UITextField!
     @IBOutlet weak var ftText: UITextField!
     
-    func showMap(){
+    @objc func showMap(){
         let next = self.storyboard?.instantiateViewController(withIdentifier: "MapController") as? MapController
         self.show(next!, sender: true)
     }
