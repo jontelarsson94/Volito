@@ -254,6 +254,7 @@
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = RE3553W5JZ;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					46EDE0701B27642D0097F454 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -512,12 +513,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RE3553W5JZ;
 				INFOPLIST_FILE = HydroSwede/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = HydroSwede;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -529,12 +532,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RE3553W5JZ;
 				INFOPLIST_FILE = HydroSwede/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = HydroSwede;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
