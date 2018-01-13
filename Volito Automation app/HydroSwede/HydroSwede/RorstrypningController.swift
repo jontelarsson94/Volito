@@ -31,7 +31,7 @@ class RorstrypningController: UIViewController, UITextFieldDelegate {
     }
     
     
-    let PI = M_PI
+    let PI = Double.pi
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()

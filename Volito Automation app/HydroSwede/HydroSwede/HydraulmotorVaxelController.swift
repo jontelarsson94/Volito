@@ -21,7 +21,7 @@ class HydraulmotorVaxelController: UIViewController, UITextFieldDelegate {
         self.show(next!, sender: true)
     }
     
-    let pi = Float(M_PI)
+    let pi = Float(Double.pi)
     @IBOutlet weak var D32Text: UITextField!
     @IBOutlet weak var D31Text: UITextField!
     @IBOutlet weak var D30Text: UITextField!

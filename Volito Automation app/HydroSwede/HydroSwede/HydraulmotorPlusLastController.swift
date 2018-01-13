@@ -18,7 +18,7 @@ class HydraulmotorPlusLastController: UIViewController, UITextFieldDelegate {
     }
 
     
-    let pi = Float(M_PI)
+    let pi = Float(Double.pi)
     @IBOutlet weak var N19Text: UITextField!
     @IBOutlet weak var N20Text: UITextField!
     @IBOutlet weak var N21Text: UITextField!

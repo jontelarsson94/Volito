@@ -23,7 +23,7 @@ class HalstrypningControllerViewController: UIViewController, UITextFieldDelegat
         self.show(next!, sender: true)
     }
     
-    let PI = M_PI
+    let PI = Double.pi
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()

@@ -258,7 +258,7 @@
 					};
 					46EDE0701B27642D0097F454 = {
 						CreatedOnToolsVersion = 6.3.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0920;
 						TestTargetID = 46EDE05B1B27642C0097F454;
 					};
 				};
@@ -574,7 +574,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = HydroSwedeTests;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroSwede.app/HydroSwede";
 			};
 			name = Debug;
@@ -591,7 +592,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = HydroSwedeTests;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroSwede.app/HydroSwede";
 			};
 			name = Release;

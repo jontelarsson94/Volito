@@ -8,7 +8,7 @@
 
 import UIKit
 import Darwin
-let PI = M_PI
+let PI = Double.pi
 
 class StrypningController: UIViewController, UITextFieldDelegate {
     

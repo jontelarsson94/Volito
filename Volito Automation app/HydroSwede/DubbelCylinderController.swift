@@ -11,7 +11,7 @@ import Darwin
 
 class DubbelCylinderController: UIViewController, UITextFieldDelegate {
 
-    let pi = Float(M_PI)
+    let pi = Float(Double.pi)
     @IBOutlet weak var kolvText: UITextField!
     @IBOutlet weak var kolvstångText: UITextField!
     @IBOutlet weak var slaglängdText: UITextField!
